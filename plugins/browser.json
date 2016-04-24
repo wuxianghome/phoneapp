@@ -1,0 +1,34 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.phonegap.myapp"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.phonegap.myapp"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.phonegap.myapp"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.phonegap.myapp"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.phonegap.myapp"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.phonegap.myapp"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.phonegap.myapp"
+        }
+    }
+}

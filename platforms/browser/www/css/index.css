@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{font-size:20px;}
+
+/*头部开始*/
+.box{width:16rem; font-family:'Microsoft Yahei';}
+header{width:100%; height:2.55rem; background:-webkit-linear-gradient(#fefefe,#ebebeb);overflow:hidden;}
+header .back{width:3.05rem;height:1.55rem;background:url(../img/back_bg.png) no-repeat;background-size:contain; text-indent:-999rem;
+ display:block; float:left; margin-left:0.8rem; margin-top:0.45rem;}
+header h2{width:3.7rem;height:1rem;background:url(../img/LOGO_bg.png) no-repeat;background-size:contain; text-indent:-9999rem;float:left;margin-left:2.5rem; 
+margin-top:0.75rem;}
+/*头部开始end*/
+
+/*轮播图开始*/
+section{width:100%;}
+.crp{width:100%; height:7.5rem;}
+
+.crp .show li{width:16rem; height:6.675rem;}
+.crp .show li a{display:block; width:100%; height:100%;}
+.crp .show img{width:100%;}
+.swiper-pagination span{background:#ff4300;}
+/*轮播图end*/
+
+/*导航开始*/
+nav{width:100%;}
+nav ul{margin:0 0.45rem;}
+nav li{width:3.75rem;height:4rem;float:left;  text-align:center; color:#c3c3c3;}
+nav li a{width:2rem;height:2rem;margin-top:1rem;margin-left:0.875rem;display:block; _background-size:contain; margin-bottom:0.4rem;}
+/*导航end*/
+
+/*商品*/
+.mer{width:calc(100% - 1rem); margin-top:1.55rem;padding:0 0.5rem; }
+.mer .head{width:100%; border-bottom:0.1rem solid #dcdcdc; color:#333; font-family:'Microsoft Yahei'; padding-bottom:0.575rem; margin-bottom:0.8rem;}
+.mer .head h2{ float:left; border-left:0.1rem solid #d51938;  font-size:0.75rem; font-weight:bold; padding-left:0.575rem;}
+.mer .head h3{float:right;  font-size:0.75rem; font-weight:bold;}
+
+.intr{width:100%;}
+.intr li{margin-bottom:0.5rem; width:100%; height:3rem; background:#f4f4f4;}
+.intr li a{display:block; width:100%; height:100%; position:relative;}
+.intr li img{width:6rem; diaplay:block; float:left;}
+.intr li span{display:block; float:left; color:#999; font-size:0.6rem; line-height:0.925rem; margin-top:0.575rem; margin-left:0.57rem;}
+.intr li span b{color:#d51938;}
+.intr li span i{ text-decoration:line-through;}
+.intr li strong{position:absolute; font-size:0.675rem; color:#d51938; font-weight:bold;right:0.5rem;top:1rem; background:url(../img/enter.gif) no-repeat right center;padding-right:0.75rem; background-size:contain;}
+
+.mer .more{width:100%;height:2.05rem; background:#f5f5f5; text-align:center; line-height:2.05rem; font-sze:0.7rem;color:#666;margin-bottom:0.5rem;}
+.mer .more a{width:100%;height:100%; font-sze:0.7rem;color:#666;}
+/*商品end*/
+
+/*菜单*/
+.menu{width:calc(100% - 1rem); padding:0 0.5rem; }
+.menu .menu_box{width:100%; height:8.85rem; }
+.menu_box .pic{width:3.75rem;float:left;}
+.menu_box .pic img{width:3.75rem;}
+.menu_box table{float:left; text-align:center; font-size:0.7rem; border-collapse:collapse; width:calc(100% - 3.75rem);  height:8.85rem;}
+.menu_box td{ border:2px solid #eee; box-sizing:border-box;}
+.menu_box td a{ color:#999;}
+.menu_box td .active{color:#db385b;}
+
+.menu .more{width:100%;height:2.05rem; text-align:center; line-height:2.05rem; font-sze:0.7rem;color:#666;margin-bottom:0.5rem;
+		margin:0.5rem 0; background:url(../img/enter.gif) no-repeat right center #f5f5f5; }
+.menu .more a{width:100%;height:100%; font-sze:0.7rem;color:#666;}
+
+/*菜单end*/
+
+/*下载*/
+.client{width:calc(100% - 1rem); padding:0 0.5rem; height:4rem;}
+.client ul{width:100%;height:100%; margin-bottom:0.5rem;}
+.client li{width:calc(100% / 3);height:100%; float:left; }
+.client a{width:100%;height:100%; display:block;}
+.client li:nth-child(1) a{background:url(../img/min_logo1.png) no-repeat; background-size:contain;}
+.client li:nth-child(2) a{background:url(../img/min_logo2.png) no-repeat; background-size:contain;}
+.client li:nth-child(3) a{background:url(../img/min_logo3.png) no-repeat; background-size:contain;}
+/*下载end*/
+
+/*底部*/
+footer{width:100%; margin-top:0.5rem;}
+footer .entry{width:100%;height:2.2rem;background:#f8f8f8;}
+.entry a{line-height:100%; float:left; color:#333; line-height:2.2rem; font-size:0.675rem; }
+.entry a:nth-child(1){margin-left:0.75rem;}
+.entry a:nth-child(2){margin-left:1.2rem;}
+.entry a:nth-child(3){float:right; background:url(../img/intro_14.png) no-repeat right center; padding-right:0.925rem; margin-right:0.725rem; }
+
+
+
+
+
+
+
